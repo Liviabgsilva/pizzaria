@@ -4,39 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Sapore d'Italia</title>
+    <!-- Importação unificada das fontes -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=IBM+Plex+Serif:wght@300;400;600&family=Mea+Culpa&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Widget flutuante com informações do Navigator (window.navigator) -->
+    <!-- Widget flutuante com informação do Navigator (window.navigator) -->
     <div class="floating-info">
         Idioma: <strong id="demo-language"></strong>
     </div>
 
-    <!-- Barra de informação com propriedades do Screen (screen) -->
+    <!-- Barra com informação do Screen (screen) -->
     <aside class="info-box">
         <p>Profundidade de cor: <span id="demo-screen"></span></p>
     </aside>
 
     <header>
         <h1>Pizzaria Sapore d'Italia</h1>
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
-</style>
         <!-- Informação do Location (location.origin) -->
-        <span class="info-badge">Origem:<strong id="demo-origin"></strong></span>
+        <span class="info-badge">Origem: <strong id="demo-origin"></strong></span>
         <nav>
-            <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-</style>
             <a href="#cardapio">Cardápio</a>
             <a href="#carrinho">Carrinho (<span id="cart-count">0</span>)</a>
         </nav>
     </header>
 
     <section class="hero">
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-</style>
         <h2>As melhores pizzas artesanais da cidade!</h2>
         <p>Massa de fermentação natural e ingredientes selecionados.</p>
         <!-- Informação do Location (location.hostname) -->
@@ -77,7 +72,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Pizzeria Bella Italia - Todos os direitos reservados.</p>
+        <p>&copy; 2026 Pizzaria Sapore d'Italia - Todos os direitos reservados.</p>
         <!-- Informação do History (history.length) -->
         <p>Histórico de navegação: <span id="demo-history"></span></p>
     </footer>
